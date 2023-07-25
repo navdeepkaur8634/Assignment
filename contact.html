@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+        </div>
+        <nav>
+            <a clss="nav-link" href="index.html">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <form id="contact form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="employmentStatus">Employment Status:</label>
+                    <select id="employmentStatus" name="employmentStatus" required>
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="Student">Student</option>
+                        <option value="Employed Full-time">Employed Full-Time</option>
+                        <option value="Employed Part-time">Employed Part-time</option>
+                        <option value="Retired">Retired</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <div class="form-group">
+                    <input type="radio" id="socialMedia" name="hearAbout" value="Social Media" required>
+                    <label for="socialMedia">Social Media</label>
+                </div>
+                <div class="form-group">
+                    <input type="radio" id="friend" name="hearAbout" value="Friend" required>
+                    <label for="friend">Friend</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="radio" id="searchEngine" name="hearAbout" value="Search Engine" required>
+                    <label for="searchEngine">Search Engine</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="radio" id="other" name="hearAbout" value="Other" required>
+                    <label for="other">Other</label>
+                  </div>
+                </fieldset>
+          
+                <fieldset>
+                  <legend>Tell Us what you think!</legend>
+                  <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Your comments here..." required></textarea>
+                  </div>
+                </fieldset>
+          
+                <fieldset>
+                  <legend>Submit</legend>
+                  <div class="form-group">
+                    <input type="checkbox" id="notRobot" name="notRobot" required>
+                    <label for="notRobot">I am not a robot.</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                  </div>
+                </fieldset>
+              </form>
+            </main>
+          
+            <footer>
+              <p>&copy; 2023 Navdeep Kaur| Student Number:8868634</p>
+            </footer>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+</html>
